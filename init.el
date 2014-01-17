@@ -24,6 +24,8 @@
 (set-face-foreground 'region "black")
 (set-face-background 'region "color-172")
 
+
+;; 空白部分に色を付ける設定.
 ;; (global-font-lock-mode t)
 ;; (defface my-face-b-1 '((t (:background "color-40"))) nil)
 ;; (defface my-face-b-2 '((t (:background "gray26"))) nil)
