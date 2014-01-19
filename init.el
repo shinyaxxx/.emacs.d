@@ -24,6 +24,11 @@
 (set-face-foreground 'region "black")
 (set-face-background 'region "color-172")
 
+;; Undo
+(global-set-key "\C-u" 'advertised-undo)
+
+;; 補完
+(global-set-key "\C-j" 'dabbrev-expand)
 
 ;; 空白部分に色を付ける設定.
 ;; (global-font-lock-mode t)
